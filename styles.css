@@ -10,7 +10,7 @@ body {
   width: 100vw;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 14px !important;
+  font-size: 16px !important;
   background-color: hsl(30, 38%, 92%);
 }
 
@@ -23,7 +23,9 @@ body {
 }
 
 .card_image {
-  width: 10rem;
+  /* width: 10rem; */
+  width: 40%;
+  object-fit: cover;
   content: url("./images/image-product-desktop.jpg");
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
